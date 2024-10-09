@@ -29,7 +29,6 @@ const config: Config = {
     locales: ['en'],
   },
   plugins:[
-    
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -80,7 +79,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: '软件系统架构',
+          label: '系统架构',
           to: '/architecture/intro'
         },
         { to: '/articles/intro', label: '文集', position: 'left' },
