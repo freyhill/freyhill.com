@@ -39,7 +39,8 @@ const config: Config = {
         // 其他配置项
       },
     ],
-    
+   
+   
   ],
   presets: [
     [
@@ -47,8 +48,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/freyhill/freyhill.com',
+            
         },
         blog: {
           showReadingTime: true,
@@ -56,8 +56,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl:
-            'https://github.com/freyhill/freyhill.com',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -85,15 +83,9 @@ const config: Config = {
           position: 'left',
           label: '软件系统架构',
         },
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'articleSidebar',
-        //   position: 'left',
-        //   label: '文集',
-        //   to:'/article/intro'
-        // },
         { to: '/articles/intro', label: '文集', position: 'left' },
         {to: '/blog', label: '博客', position: 'left'},
+        {to: '/about', label: '关于我', position: 'left'},
         {
           href: 'https://github.com/freyhill/freyhill.com',
           label: 'GitHub',
@@ -106,41 +98,34 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '系统架构',
           items: [
             {
-              label: 'Tutorial',
+              label: '系统架构',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '文集',
           items: [
-            // {
-            //   label: 'Stack Overflow',
-            //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            // },
-            // {
-            //   label: 'Discord',
-            //   href: 'https://discordapp.com/invite/docusaurus',
-            // },
-            // {
-            //   label: 'Twitter',
-            //   href: 'https://twitter.com/docusaurus',
-            // },
+           
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'About',
+              to: '/about',
+            },
+            {
+              label: 'Instagram',
+              to: 'https://instagram.com/freyhill',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/freyhill/freyhill.com',
+              to: 'https://github.com/freyhill/',
             },
           ],
         },
