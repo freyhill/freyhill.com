@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '飞河的世界',
+  tagline: '世界是个巨大的I/O系统',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -29,6 +29,7 @@ const config: Config = {
     locales: ['en'],
   },
   plugins:[
+    
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -39,8 +40,6 @@ const config: Config = {
         // 其他配置项
       },
     ],
-   
-   
   ],
   presets: [
     [
@@ -73,8 +72,8 @@ const config: Config = {
     navbar: {
       title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: '飞河的世界',
+        src: 'img/freyhill-logo.png',
       },
       items: [
         {
@@ -82,6 +81,7 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: '软件系统架构',
+          to: '/architecture/intro'
         },
         { to: '/articles/intro', label: '文集', position: 'left' },
         {to: '/blog', label: '博客', position: 'left'},

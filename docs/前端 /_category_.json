@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "前端"
+    "description": "广义的前端包括一切有关用户界面展示和交互的设备，包括手机、电脑、商场大屏、医院或商场内的可操作屏幕等。所涉及的技术研发包括Android开发，iOS开发，web前端开发，桌面应用开发等，这里我们主要讨论的是基于B/S(浏览器端到服务器端)架构的web前端开发技术...."
   }
 }
