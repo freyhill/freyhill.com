@@ -55,3 +55,10 @@ h3{
 .sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module{
   width: 100%!important;
 }
+
+pre{
+  padding:0;
+}
+.hljs-variable{
+  color: rgb(236, 101, 204)!important;;
+}
