@@ -80,9 +80,9 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: '系统架构',
-          to: '/architecture/intro'
+          to: '/architecture'
         },
-        { to: '/articles/intro', label: '文集', position: 'left' },
+        { to: '/articles', label: '文集', position: 'left' },
         {to: '/blog', label: '博客', position: 'left'},
         {to: '/about', label: '关于我', position: 'left'},
         {
@@ -101,7 +101,7 @@ const config: Config = {
           items: [
             {
               label: '系统架构',
-              to: '/docs/intro',
+              to: '/docs',
             },
           ],
         },
