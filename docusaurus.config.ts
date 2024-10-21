@@ -101,7 +101,7 @@ const config: Config = {
           items: [
             {
               label: '系统架构',
-              to: '/docs',
+              to: '/docs/intro',
             },
           ],
         },
