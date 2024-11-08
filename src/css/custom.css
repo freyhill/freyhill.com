@@ -43,7 +43,7 @@ h3{
 .container{
   padding-left: 80px;
 }
-.menu__link--sublist-caret:after {
+/* .menu__link--sublist-caret:after {
  opacity: 0.6;
 }
 .menu__caret:before{
@@ -54,7 +54,7 @@ h3{
 }
 .sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module{
   width: 100%!important;
-}
+} */
 
 pre{
   padding:0;
