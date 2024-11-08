@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: '飞河的世界',
   tagline: '世界是个巨大的I/O系统',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/freyhill-logo.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
